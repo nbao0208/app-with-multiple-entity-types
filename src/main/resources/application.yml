@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: app-with-multiple-enititiy-types
+
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/app-with-multiple-entity-types
+    username: baonguyen
+    password: 123
+
+  jpa:
+    show-sql: true
+    database: postgresql
+    hibernate:
+      ddl-auto: validate
+
+
+  data:
+    mongodb:
+      uri: mongodb://baonguyen:123@localhost:27017
+
